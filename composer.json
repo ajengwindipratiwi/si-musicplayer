@@ -1,0 +1,19 @@
+{
+    "name": "user/uts",
+    "description": "UTS Pemrograman Web Lanjutan",
+    "type": "project",
+    "require": {
+        "php": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "Ajeng",
+            "email": "ajengwindiprtw@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "App\\" : "app/"
+        }
+    }
+}
